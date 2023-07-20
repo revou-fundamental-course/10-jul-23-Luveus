@@ -23,6 +23,7 @@ function hitungBMI()
   {
     result_2.innerText = "Normal (ideal)";
     observation.innerText = "Anda berada dalam kategori berat badan normal. Cara terbaik untuk mempertahankan berat badan anda adalah makan makanan sehat dan bergizi secara teratur minimal 3 kali sehari."
+    illness.innerText = "Beberapa penyakit yang berasal dari kegemukan adalah Diabetes, Tekanan darah tinggi, Osteoarthritis, serta meningkatkan risiko penyakit jantung."
   }
   else if(result >= 25.0 && result <= 29.99)
   {
